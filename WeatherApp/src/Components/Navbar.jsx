@@ -8,19 +8,13 @@ const Navbar = () => {
           <Link to="/HomePage">Home Page</Link>
         </ol>
         <ol>
-          <Link to="/category/Electronics">Electronics</Link>
+          <Link to="/Today">Today Forecast</Link>
         </ol>
         <ol>
-          <Link to="/category/Fashion">Fashion</Link>
+          <Link to="/Weekly">Weekly Forecast</Link>
         </ol>
         <ol>
-          <Link to="/category/Sports">Sports</Link>
-        </ol>
-        <ol>
-          <Link to="/category/Movies">Movies</Link>
-        </ol>
-        <ol>
-          <Link to="/category/Home & Garden">Home & Garden</Link>
+          <Link to="/Monthly">Monthly Forecast</Link>
         </ol>
       </ul>
     </nav>
