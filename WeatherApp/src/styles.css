@@ -1,0 +1,50 @@
+/* styles.css or your preferred stylesheet */
+
+.weather-day {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .weather-day p {
+    margin: 0;
+  }
+  
+  .weather-day p:first-child {
+    font-weight: bold;
+  }
+
+  
+.monthly-calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Adjust the number of columns based on your preference */
+  gap: 10px;
+}
+
+.weather-day {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.button-row button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button-row button:hover {
+  background-color: #0056b3;
+}
